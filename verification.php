@@ -26,7 +26,7 @@ if($username && ($users[$username]) && $users[$username] === $password){ // si o
     header("location : resultat.php"); // si username et password juste c'est envoyer vers page resultat.php
 
 }else {
-    header("location : index.php"); // si c'est username et password faut renvoyer vers index.php
+    header("location : index.php"); // si c'est username et password faux renvoyer vers index.php
 
 }
 
